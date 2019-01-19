@@ -53,4 +53,5 @@ class Task
    database.execute("DELETE FROM tasks
                      WHERE id = ?;", id)
  end
+ 
 end
